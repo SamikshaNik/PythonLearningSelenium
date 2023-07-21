@@ -12,5 +12,6 @@ driver.find_element_by_name("username").send_keys("Admin")
 driver.implicitly_wait(10)
 driver.find_element_by_name("password").send_keys("admin123")
 driver.find_element_by_xpath('button[@type="submit"]').click()
+driver.quit()
 
 
